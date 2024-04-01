@@ -17,7 +17,7 @@ public class HomeController {
     private final MemberService memberService;
     // MemberService 타입의 객체를 final로 선언하여 변경 불가능하게 함. 생성자 주입 방식을 사용하기 위한 준비
 
-    // 이러지말아다오!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 
     @GetMapping("/projectPage") // '/projectPage' 경로로 GET 요청이 오면 아래 메서드를 실행
     public String home() {
